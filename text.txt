@@ -1,0 +1,80 @@
+\documentclass[conference]{IEEEtran}
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+
+\begin{document}
+
+\title{Diabetes Prediction and Risk Assessment: A Machine Learning Approach Integrating Symptoms and Lifestyle Factors}
+
+\author{
+\IEEEauthorblockN{Md.Toufike-Ur-Rahman Ridoy}
+\IEEEauthorblockA{Department of Computer Science and\\ Engineering\\
+Faridpur Engineering College\\
+Faridpur, Bangladesh\\
+toufikeurrahmanridoy@gmail.com}
+\and
+\IEEEauthorblockN{Md.Sahin Khan}
+\IEEEauthorblockA{Department of Computer Science and\\ Engineering\\
+Faridpur Engineering College\\
+Faridpur, Bangladesh\\
+sahinkhan@gmail.com}
+
+}
+
+\maketitle
+
+\begin{abstract}
+Diabetes requires accurate risk assessment and early detection due to its rising prevalence and long-term complications. The simultaneous analysis of clinical symptoms and lifestyle factors using Machine Learning revolutionizes our understanding of diabetes and patient outcomes. Machine Learning models are built on comprehensive patient data, including lifestyle, symptoms, and 12 variables. We used ten models for precise diabetes prediction, including Decision Tree (DT), K-nearest neighbors (KNN), Support Vector Machine (SVM), Random Forest (RF), Logistic Regression (LR), Naive Bayes (NB), XGBoost, Gradient Boost, CatBoost, and AdaBoost. At the National Institute of Preventive and Social Medicine (NIPSOM) in Mohakhali, Dhaka, Bangladesh, we collected 350 data samples directly from patients using questionnaires, with official permission. For every model, we performed parameter tuning to determine the best balance of complexity and accuracy. Notably, with the best accuracy of 97.85% and an excellent area under the curve (AUC) of 0.975, the Random Forest (RF) model outperformed other classifiers. The motivation behind this research is to predict the risk assignment of diabetes using various machine learning models for effective early detection and prevention.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Diabetes, machine learning, decision tree, random forest, logistic regression, support vector machine, XGBoost, Naive Bayes
+\end{IEEEkeywords}
+
+\section{Introduction}
+Diabetes is one of the most common chronic diseases and a leading cause of morbidity and mortality worldwide. 
+It occurs when the body fails to produce sufficient insulin or cannot effectively use the insulin it produces, 
+leading to elevated blood glucose levels. Persistent hyperglycemia damages multiple organs and systems, 
+including the heart, kidneys, eyes, and nerves, thereby increasing the risk of life-threatening complications.  
+
+Globally, diabetes has reached epidemic proportions. According to the International Diabetes Federation (IDF) 
+2021 statistics, approximately \textbf{537 million adults} aged 20–79 years were living with diabetes, 
+and this number is projected to rise to \textbf{643 million by 2030} and \textbf{783 million by 2045}. 
+In Bangladesh alone, more than \textbf{13 million people} are affected, with prevalence increasing rapidly due 
+to urbanization, sedentary lifestyle, and unhealthy dietary patterns.  \\
+\\
+\\
+\\
+Diabetes can manifest with a wide range of symptoms that signal underlying metabolic dysfunction. 
+The most common symptoms are:  
+\begin{itemize}
+    \item Frequent urination
+    \item Excessive thirst
+    \item Extreme hunger
+    \item Unexplained weight loss
+    \item Fatigue
+    \item Blurred vision
+    \item Slow-healing wounds
+\end{itemize}
+
+If left untreated, diabetes can lead to severe complications such as cardiovascular diseases, kidney failure, 
+neuropathy, retinopathy, and increased susceptibility to infections. Early recognition and risk assessment are 
+therefore essential for timely diagnosis, prevention, and management.  
+
+The major risk factors associated with diabetes include:
+\begin{itemize}
+    \item Family history of diabetes
+    \item Obesity and sedentary lifestyle
+    \item Unhealthy diet (high sugar and processed foods)
+    \item Hypertension and high cholesterol
+    \item Increasing age
+\end{itemize}
+
+
+\end{document}
+
+
